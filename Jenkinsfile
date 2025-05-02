@@ -12,7 +12,7 @@ pipeline {
       }
       stage("Checkout from SCM"){
                 steps{
-                    git branch: 'main' , credentialsId: 'https://github.com/Ratan2108/postmanclone.github.io/new/main'
+                    git branch: 'main' , credentialsId: 'https://github.com/Ratan2108/postmanclone.github.io'
                 }
       }
       stage("Build Application"){
